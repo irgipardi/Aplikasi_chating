@@ -81,14 +81,14 @@ class _ChatContacts extends StatelessWidget {
                   radius: 35,
                   backgroundImage: NetworkImage(user.imageUrl),
                 ),
-                // const SizedBox(height: 5),
-                // Text(
-                //   user.name,
-                //   // style: Theme.of(context)
-                //   //     .textTheme
-                //   //     .bodyMedium!
-                //   //     .copyWith(fontWeight: FontWeight.bold),
-                // ),
+                const SizedBox(height: 5),
+                Text(
+                  user.name,
+                  style: Theme.of(context)
+                      .textTheme
+                      .bodyMedium!
+                      .copyWith(fontWeight: FontWeight.bold),
+                ),
               ],
             ),
           );
